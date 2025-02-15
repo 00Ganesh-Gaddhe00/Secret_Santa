@@ -71,7 +71,7 @@ function App() {
         Generate Secret Santa
       </button>
       
-      <div  className='mt-5 w-fit md:min-w-2xl mx-auto bg-gradient-to-b from-gray-100 to-gray-300 rounded-4xl p-1 sm:p-4 min-h-30'>
+      <div  className='mt-8 w-fit md:min-w-2xl mx-auto bg-gradient-to-b from-gray-100 to-gray-300 rounded-4xl p-1 sm:p-4 min-h-30'>
         <h3 className='font-bold text-center'>Assigned List : {(assignments.length>0)? <span><DownloadCSV data={assignments} />
         </span>:"No List"}</h3>
       {assignments.length > 0 && (
