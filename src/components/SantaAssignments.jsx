@@ -12,8 +12,8 @@ const SantaAssignments = ({ assignments }) => {
   }, [assignments]);
 
   return (
-    <div ref={listRef} className=" w-fit mx-auto my-3 bg-white rounded-3xl p-2 border" >
-      <table>
+    <div ref={listRef} className="w-full mx-auto my-3 bg-white rounded-3xl p-2 border overflow-scroll" >
+      <table className=" text-[6px] md:text-[90%] lg:text-base ">
         <thead>
           <tr>
             <th  className=" border-r border-gray-200 p-3">Employee_Name</th>

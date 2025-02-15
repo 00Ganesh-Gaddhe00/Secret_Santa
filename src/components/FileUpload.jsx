@@ -29,7 +29,10 @@ const FileUpload = ({ onFileUpload, type }) => {
   return (
     <div className="">
       
-      <label className=' bg-black cursor-pointer text-white flex items-center rounded-full justify-center h-13 w-2xs p-3 hover:scale-103 transition-transform duration-300'>
+      <label className='bg-black cursor-pointer text-white flex items-center justify-center 
+                   rounded-full w-full md:w-60 lg:w-80 
+                   p-2 md:p-3 lg:p-4 text-sm md:text-base lg:text-lg 
+                   h-12 md:h-14 hover:scale-105 transition-transform duration-300'>
         {(type==="new")? "Upload Emplyees CSV": "Upload Previouslist CSV"}
   <input
     type="file"
